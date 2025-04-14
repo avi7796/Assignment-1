@@ -1,0 +1,46 @@
+import 'package:flutter/material.dart';
+
+void main() {
+      runApp(CollegeInfoApp());
+}
+
+class CollegeInfoApp extends StatelessWidget {
+      @override
+        Widget build(BuildContext context) {
+                return MaterialApp(
+                          home: Scaffold(
+                                    appBar: AppBar(title: Text('Personal  Info')),
+                                            body: Center(
+                                                          child: Column(
+                                                                        mainAxisAlignment: MainAxisAlignment.center,
+                                                                                    children: [
+                                                                                                      Text(
+                                                                                                                        'Name:Avinash Kad',
+                                                                                                                                        style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                                                                                                      ),
+                                                                                                                    Text(
+                                                                                                                                        'College Name :Chhatrapati Shivaji Maharaj University',
+                                                                                                                                                        style: TextStyle(fontSize: 20),
+                                                                                                                    ),
+                                                                                                                                  Text(
+                                                                                                                                                    'Branch:Computer Science and Engineering((Ai amd Ml))',
+                                                                                                                                                                    style: TextStyle(fontSize: 20),
+                                                                                                                                  ),
+                                                                                    ],
+                                                          ),
+                                            ),
+                          ),
+                );
+        }
+}
+                                                                                                                                  )
+                                                                                                                    )
+                                                                                                      )
+                                                                                    ]
+                                                          )
+                                            )
+                          )
+                )
+        }
+}
+}
